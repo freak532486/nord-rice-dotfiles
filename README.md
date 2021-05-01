@@ -40,6 +40,6 @@ I adjusted my wallpaper using GIMP: Create a `.colorscheme` file for nord (or yo
 
 After creating the `.colorscheme`, import an image into GIMP. Select `Image -> Mode -> Indexed...`, choose your palette and uncheck the box below the palette dropdown selection. Finally, enable dithering (except if your chosen image has flat colors, then you might not want dithering). Then click `Convert`. Your image should now consist only of the colors in your `.colorscheme`. To further edit the image, set `Mode` back to `RGB`.
 
-This process will work better on images that are already close to your colorscheme. For *nord*, you want a fairly blue-ish image.
+This process will work better on images that are already close to your colorscheme. For *nord*, you want a fairly blue-ish image. To further minimize dithering artifacts, scale the image up, convert it to your colorscheme like described above, and then scale it down again. Make sure that the image mode is set to `RGB` and not `indexed` when scaling down.
 
 ![My Wallpaper](https://i.imgur.com/R45uIQv.jpg)
