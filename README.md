@@ -9,6 +9,7 @@ I use the following programs to achieve my desktop:
 - polybar (Status bar)
 - dunst (Notification manager)
 - Rofi (Launcher and Power menu)
+- [`polybar-spotify-module`](https://github.com/mihirlad55/polybar-spotify-module): You need to install this so that the song currently played in spotify will be displayed correctly.
 
 Not in this repository are:
 - GTK-Theme (Look for the *Nordic* theme)
